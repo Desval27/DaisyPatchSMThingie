@@ -6,15 +6,16 @@ This PCB is designed to breakout all the PINs of the Daisy Patch Submodule along
 
 All 40 Patch Submodule PINs are available via the pin headers on the left hand side of the board.  The right hand side contains headers to the various additional components.
 
-[Interactive Bill of Materials (BOM)](https://github.com/Desval27/DaisyPatchSMThingie/blob/main/bom/ibom.html)
+[Interactive Bill of Materials (BOM)](hardware/bom/ibom.html)
 
-Revision A
+#Revision A
 
 ## Notes:
 - Push buttons are connected on one side to GND to be used with input pullup GPIO pins.
 - Potentiomenters are prewired on on the CW & CCW sides to +5V and GND (note this is different than the Daisy Seed Thingie).
 - Audio in/out jacks are directly connected to the Daisy's audio in/out pins.
-   If the mono audio in jacks are used left audio in is normalized to right audio in so that they will both be available for processing by the seed if nothing is connected to right audio in.
+   + If only the mono audio in jack is used left audio in is normalized to right audio in so that they will both be available for processing by the seed if nothing is connected to right audio in jack.
+   + If only the modo audio out jack is used then right audio is summed with it unless something is plugged into the right audio out jack.
 - JST connectors are provided to breakout the Audio in/out and MIDI in/out signals to external jacks (1/4" Phono, 5-pin DIN, etc.).
 - Jumpers are provided to change the configuration between TRS MIDI-A and TRS MIDI-B.  The default configuration is MIDI-A.  If MIDI-B is desired then the jumpers for MIDI-A need to be cut and those for MIDI-B bridged.
 
