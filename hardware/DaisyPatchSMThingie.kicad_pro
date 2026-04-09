@@ -805,20 +805,20 @@
       "Mechanical"
     ],
     [
-      "3765d508-3c17-495c-ae6a-975116819a9f",
-      "SDCard"
-    ],
-    [
       "3079ce77-65d0-4c77-be7e-7dcba17b739c",
       "MIDI"
     ],
     [
       "1bd31f00-89bb-4d5b-acea-94846b0e2c15",
       "Jacks"
+    ],
+    [
+      "a10ced74-98cd-4ea9-82ce-0b137426f257",
+      "Power"
     ]
   ],
   "text_variables": {
     "EMAIL": "<paul.f.burdette@gmail.com>",
-    "GITHUB": "/Desval27/DaisySeedThingie"
+    "GITHUB": "/Desval27/DaisyPatchSMThingie"
   }
 }

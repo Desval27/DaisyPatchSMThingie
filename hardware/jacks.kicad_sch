@@ -629,6 +629,130 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -731,21 +855,111 @@
 			(embedded_fonts no)
 		)
 	)
-	(no_connect
-		(at 242.57 101.6)
-		(uuid "2d3aa3d6-d748-4df0-9a1d-dd71cbb31829")
+	(junction
+		(at 227.33 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21d5380b-1ef2-4559-a23b-ed05a71cb139")
+	)
+	(junction
+		(at 238.76 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "352b7f6f-8aa6-4be9-be1c-d6d29f53d3fe")
+	)
+	(junction
+		(at 238.76 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e6dd29c-d5f7-4b6a-943e-2c7d30916ece")
 	)
 	(no_connect
-		(at 242.57 86.36)
+		(at 44.45 132.08)
+		(uuid "105909d1-ff07-40b1-abf5-d10668adb675")
+	)
+	(no_connect
+		(at 95.25 34.29)
+		(uuid "1de116b7-e6e8-47e7-bbd5-22d9015b6a5b")
+	)
+	(no_connect
+		(at 44.45 59.69)
+		(uuid "2819a223-2eed-4702-935d-69fce04d5b64")
+	)
+	(no_connect
+		(at 95.25 81.28)
+		(uuid "3c1101f0-5aad-4b3a-94cb-334a2043bd33")
+	)
+	(no_connect
+		(at 133.35 34.29)
+		(uuid "53658bcb-7401-4810-9ea9-ed3c3d54c209")
+	)
+	(no_connect
+		(at 44.45 106.68)
+		(uuid "557d3dba-5cff-4ed2-8a01-80a235c9e40a")
+	)
+	(no_connect
+		(at 44.45 81.28)
+		(uuid "6529b369-1435-4015-bbbf-6a9cefc29046")
+	)
+	(no_connect
+		(at 133.35 59.69)
+		(uuid "7a01b11b-40c4-473c-b872-0b34eced5061")
+	)
+	(no_connect
+		(at 44.45 157.48)
+		(uuid "88fa481b-aa07-4809-88ba-7606012358d0")
+	)
+	(no_connect
+		(at 242.57 115.57)
 		(uuid "a02a7d18-c523-4328-b7ea-585c49f9bd0a")
+	)
+	(no_connect
+		(at 44.45 34.29)
+		(uuid "b8a6e026-61c3-4fa2-b46c-bb4a2a5b15b3")
+	)
+	(no_connect
+		(at 95.25 106.68)
+		(uuid "b8b41feb-dab6-4e11-bac6-d1b43dead735")
+	)
+	(no_connect
+		(at 95.25 59.69)
+		(uuid "bde9e76b-c492-42c1-ab5d-4ca30491df3b")
 	)
 	(no_connect
 		(at 242.57 40.64)
 		(uuid "ccf8c432-789f-454d-8bd0-c844a9cf1a7b")
 	)
+	(no_connect
+		(at 95.25 157.48)
+		(uuid "e28872eb-a083-4b55-bf70-388c3c0f5ee0")
+	)
+	(no_connect
+		(at 95.25 132.08)
+		(uuid "f03c6ba1-4516-4bf1-91b1-657fe175de5d")
+	)
 	(wire
 		(pts
-			(xy 223.52 133.35) (xy 242.57 133.35)
+			(xy 224.79 113.03) (xy 238.76 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14d136a0-37c5-4ff1-9392-bd20cfc41794")
+	)
+	(wire
+		(pts
+			(xy 238.76 93.98) (xy 242.57 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23911f62-1166-464e-89ef-dd026ba30dbc")
+	)
+	(wire
+		(pts
+			(xy 223.52 152.4) (xy 242.57 152.4)
 		)
 		(stroke
 			(width 0)
@@ -755,7 +969,17 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 99.06) (xy 238.76 99.06)
+			(xy 238.76 93.98) (xy 238.76 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e252edf-d9c5-4380-bace-345a7222acb0")
+	)
+	(wire
+		(pts
+			(xy 224.79 91.44) (xy 227.33 91.44)
 		)
 		(stroke
 			(width 0)
@@ -765,7 +989,47 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 121.92) (xy 242.57 121.92)
+			(xy 229.87 93.98) (xy 227.33 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92a83472-9c4a-4449-9536-58cc9927349c")
+	)
+	(wire
+		(pts
+			(xy 237.49 93.98) (xy 238.76 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c004e4de-a6d6-49a0-88b2-389e7b11e164")
+	)
+	(wire
+		(pts
+			(xy 227.33 91.44) (xy 238.76 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecd9544d-318d-4486-81d4-a0d37c44c732")
+	)
+	(wire
+		(pts
+			(xy 227.33 93.98) (xy 227.33 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee9a2b60-16ab-4a4b-a59b-38a4c3b66a71")
+	)
+	(wire
+		(pts
+			(xy 223.52 140.97) (xy 242.57 140.97)
 		)
 		(stroke
 			(width 0)
@@ -775,7 +1039,7 @@
 	)
 	(global_label "AUDIO_OUT_R"
 		(shape input)
-		(at 237.49 99.06 180)
+		(at 224.79 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -785,7 +1049,51 @@
 		)
 		(uuid "0ff7c8e3-a78e-4010-9ffd-6f12f81ffa5c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.0466 99.06 0)
+			(at 209.3466 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CV_6"
+		(shape output)
+		(at 91.44 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "150301f2-fa1a-45e4-8448-6eafa47cad9f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.9191 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CV_5"
+		(shape output)
+		(at 91.44 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "16e73e4e-c24a-4878-8722-e9f1be147d50")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.9191 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -797,7 +1105,7 @@
 	)
 	(global_label "AUDIO_IN_R"
 		(shape output)
-		(at 242.57 124.46 180)
+		(at 242.57 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -807,7 +1115,7 @@
 		)
 		(uuid "2fbca117-19aa-4c14-b782-4c9afee68d74")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.8199 124.46 0)
+			(at 228.8199 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -861,9 +1169,9 @@
 			)
 		)
 	)
-	(global_label "JA_T"
-		(shape bidirectional)
-		(at 163.83 41.91 180)
+	(global_label "GATE_OUT_1"
+		(shape input)
+		(at 40.64 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -873,7 +1181,29 @@
 		)
 		(uuid "3c54c00a-5c4b-4b3c-b514-347ad2b78b00")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.7421 41.91 0)
+			(at 26.4063 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CV_8"
+		(shape input)
+		(at 129.54 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3d0ee6c8-2c59-426e-b9c5-d42eb4f85f7d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.0191 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -885,7 +1215,7 @@
 	)
 	(global_label "AUDIO_OUT_R"
 		(shape input)
-		(at 242.57 135.89 180)
+		(at 242.57 154.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -895,7 +1225,7 @@
 		)
 		(uuid "48930442-ab85-48d4-a82c-074de2264ff8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.1266 135.89 0)
+			(at 227.1266 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -929,7 +1259,7 @@
 	)
 	(global_label "AUDIO_OUT_L"
 		(shape input)
-		(at 238.76 83.82 180)
+		(at 224.79 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -939,7 +1269,29 @@
 		)
 		(uuid "6009036e-8aa3-4bde-a363-d4081ed5bde0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.5585 83.82 0)
+			(at 209.5885 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CV_1"
+		(shape output)
+		(at 91.44 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "61da07b3-d979-416d-b0b5-1a72dff446e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.9191 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -971,31 +1323,9 @@
 			)
 		)
 	)
-	(global_label "JD_T"
-		(shape bidirectional)
-		(at 163.83 91.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "84ef594e-363c-4dde-bbe6-21f10816c64a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.5607 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "AUDIO_OUT_L"
 		(shape input)
-		(at 242.57 130.81 180)
+		(at 242.57 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1005,7 +1335,7 @@
 		)
 		(uuid "8bdeff72-13db-454f-871b-6c9f45cf8a0a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.3685 130.81 0)
+			(at 227.3685 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1037,9 +1367,9 @@
 			)
 		)
 	)
-	(global_label "JD_TN"
-		(shape bidirectional)
-		(at 167.64 93.98 180)
+	(global_label "CV_OUT_1"
+		(shape input)
+		(at 40.64 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1047,9 +1377,119 @@
 			)
 			(justify right)
 		)
-		(uuid "b2df9b07-06ad-4781-be7f-14743732cd04")
+		(uuid "a504fafd-712e-4022-b14a-b38c27a577a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.0402 93.98 0)
+			(at 28.5229 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GATE_IN_2"
+		(shape output)
+		(at 40.64 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a80de1b7-89f3-4044-a459-6d9313758a20")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 28.0996 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CV_4"
+		(shape input)
+		(at 91.44 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa0aa220-c16f-462c-ad1b-d132bac66ef6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.9191 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CV_7"
+		(shape input)
+		(at 129.54 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af34fddd-ba51-452d-b8e8-7277e33ae800")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.0191 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GATE_OUT_2"
+		(shape input)
+		(at 40.64 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b0ccf5bf-da1f-4bda-b646-e5a6ea89249e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.4063 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GATE_IN_1"
+		(shape output)
+		(at 40.64 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1c9da9c-e57e-495f-bbb0-b3251fff54e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 28.0996 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1061,7 +1501,7 @@
 	)
 	(global_label "AUDIO_IN_L"
 		(shape output)
-		(at 242.57 119.38 180)
+		(at 242.57 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1071,73 +1511,7 @@
 		)
 		(uuid "c837f90f-2ef1-40f2-a34a-00b919dcda0b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.0618 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "JA_TN"
-		(shape bidirectional)
-		(at 167.64 44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d46bf2b4-832b-4f2b-bda2-d49fe571b5c6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.2216 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "JC_T"
-		(shape bidirectional)
-		(at 163.83 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d6e77f04-6eb2-4462-b014-3e9443c0e554")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.5607 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "JB_T"
-		(shape bidirectional)
-		(at 163.83 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d90ac4e8-fd1c-461d-94fc-86bdd3185223")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.5607 58.42 0)
+			(at 229.0618 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1191,9 +1565,9 @@
 			)
 		)
 	)
-	(global_label "JC_TN"
-		(shape bidirectional)
-		(at 167.64 77.47 180)
+	(global_label "CV_2"
+		(shape output)
+		(at 91.44 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1201,9 +1575,9 @@
 			)
 			(justify right)
 		)
-		(uuid "e3579ffe-ba5a-4daf-97d2-b7023cacac9a")
+		(uuid "e81b1aa1-c6fd-44ff-9e64-c4104cafa358")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.0402 77.47 0)
+			(at 83.9191 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1213,9 +1587,9 @@
 			)
 		)
 	)
-	(global_label "JB_TN"
-		(shape bidirectional)
-		(at 167.64 60.96 180)
+	(global_label "CV_OUT_2"
+		(shape output)
+		(at 40.64 154.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1223,9 +1597,31 @@
 			)
 			(justify right)
 		)
-		(uuid "eb7417e3-cd63-4df7-a0c6-b6af7979b04d")
+		(uuid "fc524dfe-e9e9-4db2-b5d3-f64c1f22ce61")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.0402 60.96 0)
+			(at 28.5229 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CV_3"
+		(shape input)
+		(at 91.44 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe346fb3-bda8-485d-a258-750d29078e64")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.9191 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1236,8 +1632,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 233.68 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00f07c31-e993-4357-80d7-c92bf8ab5295")
+		(property "Reference" "R5"
+			(at 233.68 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1kΩ"
+			(at 233.68 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+			(at 233.68 92.202 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 233.68 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fe3f306-b378-43c5-8a15-9393095a6277")
+		)
+		(pin "2"
+			(uuid "d0b596a5-eaec-4821-8f7d-194d41fa39e1")
+		)
+		(instances
+			(project ""
+				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Desval:3.5mm_Mono_Switched_Jack")
-		(at 246.38 86.36 0)
+		(at 246.38 115.57 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1246,8 +1710,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11dc91d5-53df-42e6-afac-a89d210fa004")
-		(property "Reference" "J14"
-			(at 250.19 85.0899 0)
+		(property "Reference" "J28"
+			(at 250.19 114.2999 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1256,7 +1720,7 @@
 			)
 		)
 		(property "Value" "MONO 3.5mm"
-			(at 235.585 97.155 0)
+			(at 235.585 126.365 0)
 			(effects
 				(font
 					(size 0.6096 0.6096)
@@ -1267,7 +1731,7 @@
 			)
 		)
 		(property "Footprint" "Desval:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
-			(at 227.33 95.25 0)
+			(at 227.33 124.46 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1276,7 +1740,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 86.36 0)
+			(at 246.38 115.57 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1284,7 +1748,7 @@
 			)
 		)
 		(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
-			(at 246.38 86.36 0)
+			(at 246.38 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1293,7 +1757,7 @@
 			)
 		)
 		(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
-			(at 245.11 90.424 0)
+			(at 245.11 119.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1303,7 +1767,7 @@
 			)
 		)
 		(property "Manufacturer" "Wenzhou QingPu Electronics Co"
-			(at 245.11 91.948 0)
+			(at 245.11 121.158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1313,7 +1777,7 @@
 			)
 		)
 		(property "Part Number" "WQP-WQP518MA"
-			(at 245.11 93.472 0)
+			(at 245.11 122.682 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1322,8 +1786,8 @@
 				(hide yes)
 			)
 		)
-		(property "Label" "OUT L"
-			(at 250.19 87.6299 0)
+		(property "Label" "OUT L(M)"
+			(at 250.19 116.8399 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1334,7 +1798,7 @@
 			)
 		)
 		(property "Display" "3.5mm_Mono"
-			(at 245.745 82.55 0)
+			(at 245.745 111.76 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1355,7 +1819,133 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
-					(reference "J14")
+					(reference "J28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Desval:3.5mm_Mono_Switched_Jack")
+		(at 48.26 81.28 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16b4f908-aaf3-407e-867c-08a5d974a231")
+		(property "Reference" "J12"
+			(at 52.07 80.0099 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MONO 3.5mm"
+			(at 37.465 92.075 0)
+			(effects
+				(font
+					(size 0.6096 0.6096)
+					(bold yes)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Desval:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+			(at 29.21 90.17 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 48.26 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 46.99 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wenzhou QingPu Electronics Co"
+			(at 46.99 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "WQP-WQP518MA"
+			(at 46.99 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Label" "GATEIN1"
+			(at 52.07 82.5499 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Display" "3.5mm_Mono"
+			(at 47.625 77.47 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(pin "TN"
+			(uuid "6e88fb9f-f863-44a1-86ae-d4afee31be40")
+		)
+		(pin "T"
+			(uuid "f571dc2b-b530-4fe0-bc02-858fe362fca1")
+		)
+		(pin "S"
+			(uuid "c69c512c-36f1-45cb-97b8-b00cdbe4b125")
+		)
+		(instances
+			(project "DaisyPatchSMThingie"
+				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -1371,7 +1961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17d28919-1c26-4254-8e9d-d23ab9c2939f")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR065"
 			(at 248.92 36.83 0)
 			(effects
 				(font
@@ -1421,7 +2011,7 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
-					(reference "#PWR049")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -1429,7 +2019,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 133.35 0)
+		(at 223.52 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1437,8 +2027,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34c5c30a-7881-410c-9401-a9155afcc692")
-		(property "Reference" "#PWR038"
-			(at 223.52 139.7 0)
+		(property "Reference" "#PWR064"
+			(at 223.52 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1447,7 +2037,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.52 138.43 0)
+			(at 223.52 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1455,7 +2045,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 133.35 0)
+			(at 223.52 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1464,7 +2054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 133.35 0)
+			(at 223.52 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1473,7 +2063,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 133.35 0)
+			(at 223.52 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1487,7 +2077,73 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
-					(reference "#PWR038")
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ac009a3-e0e6-46d4-b39f-9fcac11f9a0f")
+		(property "Reference" "#PWR057"
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ed4ae64-26e1-4a3a-b9f9-a0c456d43005")
+		)
+		(instances
+			(project "DaisyPatchSMThingie"
+				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -1504,7 +2160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b18a776-5122-405b-95c4-a6dc62add66b")
-		(property "Reference" "J10"
+		(property "Reference" "J24"
 			(at 250.19 25.2838 0)
 			(effects
 				(font
@@ -1612,7 +2268,7 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
-					(reference "J10")
+					(reference "J24")
 					(unit 1)
 				)
 			)
@@ -1620,16 +2276,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 173.99 81.28 0)
+		(at 101.6 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4b20a27b-2b01-4445-8eb8-6d77f1f310d3")
-		(property "Reference" "#PWR063"
-			(at 173.99 87.63 0)
+		(uuid "3f3d3889-52ce-42bf-b005-dd44f25ee00a")
+		(property "Reference" "#PWR060"
+			(at 101.6 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1638,7 +2294,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 173.99 86.36 0)
+			(at 101.6 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1646,7 +2302,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 81.28 0)
+			(at 101.6 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1655,7 +2311,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 81.28 0)
+			(at 101.6 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1664,7 +2320,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 81.28 0)
+			(at 101.6 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1673,12 +2329,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "85c49ef7-eb3e-4863-92aa-51c5b47293d3")
+			(uuid "e49957fe-829d-4076-9409-2ebc9b9488a5")
 		)
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
-					(reference "#PWR063")
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a06a303-4906-4a59-8eb9-f5fca94a13d1")
+		(property "Reference" "#PWR062"
+			(at 139.7 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86428d3b-025f-47c7-b51c-e04d0c558a96")
+		)
+		(instances
+			(project "DaisyPatchSMThingie"
+				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -1686,7 +2408,7 @@
 	)
 	(symbol
 		(lib_id "Desval:3.5mm_Mono_Switched_Jack")
-		(at 171.45 77.47 0)
+		(at 48.26 157.48 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1694,9 +2416,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4c2a13ea-9233-43bf-b131-5fc4a9400192")
-		(property "Reference" "J22"
-			(at 175.26 76.1999 0)
+		(uuid "4da3f1e4-f2cf-4c66-8a65-5f62baedc783")
+		(property "Reference" "J15"
+			(at 52.07 156.2099 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1705,7 +2427,7 @@
 			)
 		)
 		(property "Value" "MONO 3.5mm"
-			(at 160.655 88.265 0)
+			(at 37.465 168.275 0)
 			(effects
 				(font
 					(size 0.6096 0.6096)
@@ -1716,7 +2438,7 @@
 			)
 		)
 		(property "Footprint" "Desval:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
-			(at 152.4 86.36 0)
+			(at 29.21 166.37 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1725,7 +2447,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 77.47 0)
+			(at 48.26 157.48 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1733,7 +2455,7 @@
 			)
 		)
 		(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
-			(at 171.45 77.47 0)
+			(at 48.26 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1742,7 +2464,7 @@
 			)
 		)
 		(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
-			(at 170.18 81.534 0)
+			(at 46.99 161.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1752,7 +2474,7 @@
 			)
 		)
 		(property "Manufacturer" "Wenzhou QingPu Electronics Co"
-			(at 170.18 83.058 0)
+			(at 46.99 163.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1762,7 +2484,7 @@
 			)
 		)
 		(property "Part Number" "WQP-WQP518MA"
-			(at 170.18 84.582 0)
+			(at 46.99 164.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1771,8 +2493,8 @@
 				(hide yes)
 			)
 		)
-		(property "Label" "C"
-			(at 175.26 78.7399 0)
+		(property "Label" "CVOUT2"
+			(at 52.07 158.7499 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1783,7 +2505,7 @@
 			)
 		)
 		(property "Display" "3.5mm_Mono"
-			(at 170.815 73.66 0)
+			(at 47.625 153.67 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1793,18 +2515,336 @@
 			)
 		)
 		(pin "TN"
-			(uuid "fe5e67e2-ef7d-4bfe-861e-f898c81319ea")
+			(uuid "e35102bc-d70c-4c80-bf31-33e5309e5dc8")
 		)
 		(pin "T"
-			(uuid "8c0c76f2-bf46-4559-b601-42160828aefb")
+			(uuid "2022bc50-a656-4dfd-8e78-cda7360a3823")
 		)
 		(pin "S"
-			(uuid "06283d34-685b-49f8-acdb-f3c815323e03")
+			(uuid "979d3ea2-404f-4990-be10-f20bfe8eb55d")
 		)
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
-					(reference "J22")
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Desval:3.5mm_Mono_Switched_Jack")
+		(at 99.06 81.28 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "560804b2-dbdc-405d-9188-14d287467e92")
+		(property "Reference" "J18"
+			(at 102.87 80.0099 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MONO 3.5mm"
+			(at 88.265 92.075 0)
+			(effects
+				(font
+					(size 0.6096 0.6096)
+					(bold yes)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Desval:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+			(at 80.01 90.17 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 99.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 97.79 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wenzhou QingPu Electronics Co"
+			(at 97.79 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "WQP-WQP518MA"
+			(at 97.79 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Label" "CVIN3"
+			(at 102.87 82.5499 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Display" "3.5mm_Mono"
+			(at 98.425 77.47 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(pin "TN"
+			(uuid "fbbeffc5-640c-4d9b-8b3a-1a43db4cec20")
+		)
+		(pin "T"
+			(uuid "6d7d1049-8414-4d9a-bd55-52b6992487c6")
+		)
+		(pin "S"
+			(uuid "fcd06cab-bd63-4cf0-8479-63da1a7c6052")
+		)
+		(instances
+			(project "DaisyPatchSMThingie"
+				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "611ce7a1-1a94-47e3-9983-83d7b0828a01")
+		(property "Reference" "#PWR052"
+			(at 50.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7652bdc-db57-447c-9148-9fc262e7b05c")
+		)
+		(instances
+			(project "DaisyPatchSMThingie"
+				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Desval:3.5mm_Mono_Switched_Jack")
+		(at 48.26 132.08 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d808e92-b4fb-49c7-9546-21e218918d5d")
+		(property "Reference" "J14"
+			(at 52.07 130.8099 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MONO 3.5mm"
+			(at 37.465 142.875 0)
+			(effects
+				(font
+					(size 0.6096 0.6096)
+					(bold yes)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Desval:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+			(at 29.21 140.97 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 132.08 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 48.26 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 46.99 136.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wenzhou QingPu Electronics Co"
+			(at 46.99 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "WQP-WQP518MA"
+			(at 46.99 139.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Label" "CVOUT1"
+			(at 52.07 133.3499 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Display" "3.5mm_Mono"
+			(at 47.625 128.27 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(pin "TN"
+			(uuid "943e9d9e-2868-421a-a60b-542f62f38d6a")
+		)
+		(pin "T"
+			(uuid "1502807f-e3aa-40f7-a9f6-17fa563ce219")
+		)
+		(pin "S"
+			(uuid "8ab8aa9a-5ac8-4aae-a490-3f494c300b8c")
+		)
+		(instances
+			(project "DaisyPatchSMThingie"
+				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -1820,7 +2860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7403b6f1-d9d7-4c9a-b922-890ff7c46054")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR067"
 			(at 248.92 67.31 0)
 			(effects
 				(font
@@ -1870,7 +2910,133 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
-					(reference "#PWR051")
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Desval:3.5mm_Mono_Switched_Jack")
+		(at 99.06 34.29 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79e1026d-477c-4635-8cec-aa63f765e7d5")
+		(property "Reference" "J16"
+			(at 102.87 33.0199 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MONO 3.5mm"
+			(at 88.265 45.085 0)
+			(effects
+				(font
+					(size 0.6096 0.6096)
+					(bold yes)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Desval:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+			(at 80.01 43.18 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 34.29 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 99.06 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 97.79 38.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wenzhou QingPu Electronics Co"
+			(at 97.79 39.878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "WQP-WQP518MA"
+			(at 97.79 41.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Label" "CVIN1"
+			(at 102.87 35.5599 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Display" "3.5mm_Mono"
+			(at 98.425 30.48 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(pin "TN"
+			(uuid "bb6fe850-b2be-46cd-b714-f01a0802c3f5")
+		)
+		(pin "T"
+			(uuid "37acc0ac-4050-4002-8b3d-506257dafee2")
+		)
+		(pin "S"
+			(uuid "ff056151-42f7-4ed6-bf45-0c43ae0710e4")
+		)
+		(instances
+			(project "DaisyPatchSMThingie"
+				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -1878,16 +3044,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 173.99 48.26 0)
+		(at 139.7 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "80d59167-c38e-4918-842b-86b8e8bba15e")
+		(uuid "80180d89-80c3-4747-823c-8c2c8639ba49")
 		(property "Reference" "#PWR061"
-			(at 173.99 54.61 0)
+			(at 139.7 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1896,7 +3062,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 173.99 53.34 0)
+			(at 139.7 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1904,7 +3070,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 48.26 0)
+			(at 139.7 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1913,7 +3079,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 48.26 0)
+			(at 139.7 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1922,7 +3088,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 48.26 0)
+			(at 139.7 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "694f7276-4cef-44d0-a8a9-eb1f94bcfe8b")
+		)
+		(instances
+			(project "DaisyPatchSMThingie"
+				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80d59167-c38e-4918-842b-86b8e8bba15e")
+		(property "Reference" "#PWR049"
+			(at 50.8 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1936,7 +3168,133 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
-					(reference "#PWR061")
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Desval:3.5mm_Mono_Switched_Jack")
+		(at 48.26 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81528507-b467-4997-aae4-b23977505d77")
+		(property "Reference" "J13"
+			(at 52.07 105.4099 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MONO 3.5mm"
+			(at 37.465 117.475 0)
+			(effects
+				(font
+					(size 0.6096 0.6096)
+					(bold yes)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Desval:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+			(at 29.21 115.57 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 48.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 46.99 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wenzhou QingPu Electronics Co"
+			(at 46.99 112.268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "WQP-WQP518MA"
+			(at 46.99 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Label" "GATEIN2"
+			(at 52.07 107.9499 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Display" "3.5mm_Mono"
+			(at 47.625 102.87 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(pin "TN"
+			(uuid "1802ed27-fae5-47ab-a6b5-86436813e0f6")
+		)
+		(pin "T"
+			(uuid "a2cc7eee-22be-472b-8ea3-00018194f847")
+		)
+		(pin "S"
+			(uuid "b8f812a5-a348-4f3e-b241-1e20fb520190")
+		)
+		(instances
+			(project "DaisyPatchSMThingie"
+				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -1944,16 +3302,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 248.92 90.17 0)
+		(at 50.8 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "869b9031-5a3f-444b-a8a8-177d8686a4f4")
-		(property "Reference" "#PWR053"
-			(at 248.92 96.52 0)
+		(uuid "828b55cd-c04f-4faa-94e6-86dde3cdf367")
+		(property "Reference" "#PWR054"
+			(at 50.8 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1962,7 +3320,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 248.92 95.25 0)
+			(at 50.8 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1970,7 +3328,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 90.17 0)
+			(at 50.8 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1979,7 +3337,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 90.17 0)
+			(at 50.8 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1988,7 +3346,199 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 248.92 90.17 0)
+			(at 50.8 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fd63dc6-c1d3-433b-bc06-c418c1bcb139")
+		)
+		(instances
+			(project "DaisyPatchSMThingie"
+				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Desval:3.5mm_Mono_Switched_Jack")
+		(at 99.06 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "836067b2-9d62-476f-9eb4-6e99a437e78e")
+		(property "Reference" "J19"
+			(at 102.87 105.4099 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MONO 3.5mm"
+			(at 88.265 117.475 0)
+			(effects
+				(font
+					(size 0.6096 0.6096)
+					(bold yes)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Desval:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+			(at 80.01 115.57 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 99.06 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 97.79 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wenzhou QingPu Electronics Co"
+			(at 97.79 112.268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "WQP-WQP518MA"
+			(at 97.79 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Label" "CVIN4"
+			(at 102.87 107.9499 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Display" "3.5mm_Mono"
+			(at 98.425 102.87 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(pin "TN"
+			(uuid "bb93991d-6af6-467b-a8c1-93fe24db3fe2")
+		)
+		(pin "T"
+			(uuid "b8f6c367-61aa-41e3-be45-041e26176c37")
+		)
+		(pin "S"
+			(uuid "b99f7a11-4229-4cd2-b959-1eb1f29fa6fa")
+		)
+		(instances
+			(project "DaisyPatchSMThingie"
+				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 248.92 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "869b9031-5a3f-444b-a8a8-177d8686a4f4")
+		(property "Reference" "#PWR069"
+			(at 248.92 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 248.92 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 248.92 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2002,7 +3552,133 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
-					(reference "#PWR053")
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Desval:3.5mm_Mono_Switched_Jack")
+		(at 99.06 157.48 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a8fa158-697e-4063-9ac3-52a611b15905")
+		(property "Reference" "J21"
+			(at 102.87 156.2099 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MONO 3.5mm"
+			(at 88.265 168.275 0)
+			(effects
+				(font
+					(size 0.6096 0.6096)
+					(bold yes)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Desval:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+			(at 80.01 166.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 157.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 99.06 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 97.79 161.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wenzhou QingPu Electronics Co"
+			(at 97.79 163.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "WQP-WQP518MA"
+			(at 97.79 164.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Label" "CVIN6"
+			(at 102.87 158.7499 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Display" "3.5mm_Mono"
+			(at 98.425 153.67 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(pin "TN"
+			(uuid "a452e108-382d-4c93-bcff-46db2bd5e91b")
+		)
+		(pin "T"
+			(uuid "069a6394-eb77-4b0e-aa9e-903812b65083")
+		)
+		(pin "S"
+			(uuid "33ae041d-ee4f-4235-862e-134113cb444b")
+		)
+		(instances
+			(project "DaisyPatchSMThingie"
+				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -2018,7 +3694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c89d9da-3f65-4e12-a72b-d9e9b27326d4")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR066"
 			(at 248.92 50.8 0)
 			(effects
 				(font
@@ -2068,7 +3744,7 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
-					(reference "#PWR050")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -2076,16 +3752,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 248.92 105.41 0)
+		(at 101.6 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "90f7a56e-e8e7-4e53-aaaa-ba9ac8dc3536")
-		(property "Reference" "#PWR054"
-			(at 248.92 111.76 0)
+		(uuid "8e883ad4-5f0c-4143-9a3f-3fd3302718d8")
+		(property "Reference" "#PWR056"
+			(at 101.6 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2094,7 +3770,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 248.92 110.49 0)
+			(at 101.6 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2102,7 +3778,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 105.41 0)
+			(at 101.6 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2111,7 +3787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 105.41 0)
+			(at 101.6 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2120,7 +3796,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 248.92 105.41 0)
+			(at 101.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8ecf68c-c02a-468c-9e91-ad6e7115bd0f")
+		)
+		(instances
+			(project "DaisyPatchSMThingie"
+				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 248.92 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90f7a56e-e8e7-4e53-aaaa-ba9ac8dc3536")
+		(property "Reference" "#PWR070"
+			(at 248.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 248.92 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 248.92 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2134,7 +3876,7 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
-					(reference "#PWR054")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -2142,15 +3884,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 247.65 121.92 0)
+		(at 247.65 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "99b0cf9a-4cb7-4093-bd97-da65fbd6eff9")
-		(property "Reference" "J8"
-			(at 250.19 120.6499 0)
+		(property "Reference" "J30"
+			(at 250.19 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2159,7 +3901,7 @@
 			)
 		)
 		(property "Value" "JST 01x03"
-			(at 250.19 123.1899 0)
+			(at 250.19 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2169,7 +3911,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 247.65 121.92 0)
+			(at 247.65 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2178,7 +3920,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.65 121.92 0)
+			(at 247.65 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2187,7 +3929,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 247.65 121.92 0)
+			(at 247.65 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2196,7 +3938,7 @@
 			)
 		)
 		(property "Label" "AUDIO IN"
-			(at 254.508 122.428 0)
+			(at 254.508 141.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2215,7 +3957,7 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
-					(reference "J8")
+					(reference "J30")
 					(unit 1)
 				)
 			)
@@ -2223,7 +3965,7 @@
 	)
 	(symbol
 		(lib_id "Desval:3.5mm_Mono_Switched_Jack")
-		(at 171.45 44.45 0)
+		(at 137.16 59.69 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2231,9 +3973,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9decc222-1507-4921-b0ed-41b2143a2e44")
-		(property "Reference" "J20"
-			(at 175.26 43.1799 0)
+		(uuid "9abab5c0-e84e-4967-8ddb-d5182df074a1")
+		(property "Reference" "J23"
+			(at 140.97 58.4199 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2242,7 +3984,7 @@
 			)
 		)
 		(property "Value" "MONO 3.5mm"
-			(at 160.655 55.245 0)
+			(at 126.365 70.485 0)
 			(effects
 				(font
 					(size 0.6096 0.6096)
@@ -2253,7 +3995,7 @@
 			)
 		)
 		(property "Footprint" "Desval:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
-			(at 152.4 53.34 0)
+			(at 118.11 68.58 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2262,7 +4004,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 44.45 0)
+			(at 137.16 59.69 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2270,7 +4012,7 @@
 			)
 		)
 		(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
-			(at 171.45 44.45 0)
+			(at 137.16 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2279,7 +4021,7 @@
 			)
 		)
 		(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
-			(at 170.18 48.514 0)
+			(at 135.89 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2289,7 +4031,7 @@
 			)
 		)
 		(property "Manufacturer" "Wenzhou QingPu Electronics Co"
-			(at 170.18 50.038 0)
+			(at 135.89 65.278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2299,7 +4041,7 @@
 			)
 		)
 		(property "Part Number" "WQP-WQP518MA"
-			(at 170.18 51.562 0)
+			(at 135.89 66.802 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2308,8 +4050,8 @@
 				(hide yes)
 			)
 		)
-		(property "Label" "A"
-			(at 175.26 45.7199 0)
+		(property "Label" "CVIN8"
+			(at 140.97 60.9599 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -2320,7 +4062,259 @@
 			)
 		)
 		(property "Display" "3.5mm_Mono"
-			(at 170.815 40.64 0)
+			(at 136.525 55.88 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(pin "TN"
+			(uuid "695ed58e-3081-4bcb-b8b5-83da2c4b360e")
+		)
+		(pin "T"
+			(uuid "e340a808-2413-42df-9a29-fff3d9f4849b")
+		)
+		(pin "S"
+			(uuid "0306002f-43b8-4ea5-9944-6a1a45278d8d")
+		)
+		(instances
+			(project "DaisyPatchSMThingie"
+				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
+					(reference "J23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Desval:3.5mm_Mono_Switched_Jack")
+		(at 99.06 59.69 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c26f59e-59ce-42a2-a263-7ea67cba6401")
+		(property "Reference" "J17"
+			(at 102.87 58.4199 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MONO 3.5mm"
+			(at 88.265 70.485 0)
+			(effects
+				(font
+					(size 0.6096 0.6096)
+					(bold yes)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Desval:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+			(at 80.01 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 59.69 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 99.06 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 97.79 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wenzhou QingPu Electronics Co"
+			(at 97.79 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "WQP-WQP518MA"
+			(at 97.79 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Label" "CVIN2"
+			(at 102.87 60.9599 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Display" "3.5mm_Mono"
+			(at 98.425 55.88 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(pin "TN"
+			(uuid "cff14999-031f-4fe2-a7ea-77027ce3ac79")
+		)
+		(pin "T"
+			(uuid "d3529ab8-7884-45d5-b3d8-247b339f04e1")
+		)
+		(pin "S"
+			(uuid "375ff13a-5c6a-4597-90df-382fc41498d2")
+		)
+		(instances
+			(project "DaisyPatchSMThingie"
+				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Desval:3.5mm_Mono_Switched_Jack")
+		(at 48.26 34.29 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9decc222-1507-4921-b0ed-41b2143a2e44")
+		(property "Reference" "J10"
+			(at 52.07 33.0199 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MONO 3.5mm"
+			(at 37.465 45.085 0)
+			(effects
+				(font
+					(size 0.6096 0.6096)
+					(bold yes)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Desval:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+			(at 29.21 43.18 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 34.29 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 48.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 46.99 38.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wenzhou QingPu Electronics Co"
+			(at 46.99 39.878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "WQP-WQP518MA"
+			(at 46.99 41.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Label" "GATEOUT1"
+			(at 52.07 35.5599 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Display" "3.5mm_Mono"
+			(at 47.625 30.48 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -2341,7 +4335,7 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
-					(reference "J20")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -2349,7 +4343,7 @@
 	)
 	(symbol
 		(lib_id "Desval:3.5mm_Mono_Switched_Jack")
-		(at 246.38 101.6 0)
+		(at 99.06 132.08 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2357,9 +4351,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a7110060-8fb2-49fb-acc2-f9b0ca43605b")
-		(property "Reference" "J15"
-			(at 250.19 100.3299 0)
+		(uuid "a4a16ff3-c6dc-4406-bb07-ed846f882717")
+		(property "Reference" "J20"
+			(at 102.87 130.8099 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2368,7 +4362,7 @@
 			)
 		)
 		(property "Value" "MONO 3.5mm"
-			(at 235.585 112.395 0)
+			(at 88.265 142.875 0)
 			(effects
 				(font
 					(size 0.6096 0.6096)
@@ -2379,7 +4373,7 @@
 			)
 		)
 		(property "Footprint" "Desval:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
-			(at 227.33 110.49 0)
+			(at 80.01 140.97 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2388,7 +4382,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 101.6 0)
+			(at 99.06 132.08 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2396,7 +4390,7 @@
 			)
 		)
 		(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
-			(at 246.38 101.6 0)
+			(at 99.06 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2405,7 +4399,7 @@
 			)
 		)
 		(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
-			(at 245.11 105.664 0)
+			(at 97.79 136.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2415,7 +4409,7 @@
 			)
 		)
 		(property "Manufacturer" "Wenzhou QingPu Electronics Co"
-			(at 245.11 107.188 0)
+			(at 97.79 137.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2425,7 +4419,7 @@
 			)
 		)
 		(property "Part Number" "WQP-WQP518MA"
-			(at 245.11 108.712 0)
+			(at 97.79 139.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,8 +4428,8 @@
 				(hide yes)
 			)
 		)
-		(property "Label" "OUT R"
-			(at 250.19 102.8699 0)
+		(property "Label" "CVIN5"
+			(at 102.87 133.3499 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -2446,7 +4440,199 @@
 			)
 		)
 		(property "Display" "3.5mm_Mono"
-			(at 245.745 97.79 0)
+			(at 98.425 128.27 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(pin "TN"
+			(uuid "885fc0f4-af7a-444b-8138-532eedea5fd4")
+		)
+		(pin "T"
+			(uuid "f376bafb-7415-4765-842c-9520b10596d6")
+		)
+		(pin "S"
+			(uuid "423a80aa-605c-4868-bda4-2fa2d1faf63f")
+		)
+		(instances
+			(project "DaisyPatchSMThingie"
+				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5944f18-f00f-4cc6-bddc-713f88a1e540")
+		(property "Reference" "#PWR058"
+			(at 101.6 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6d41add-c493-4968-a368-a0f3056adeef")
+		)
+		(instances
+			(project "DaisyPatchSMThingie"
+				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Desval:3.5mm_Mono_Switched_Jack")
+		(at 246.38 93.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7110060-8fb2-49fb-acc2-f9b0ca43605b")
+		(property "Reference" "J29"
+			(at 250.19 92.7099 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MONO 3.5mm"
+			(at 235.585 104.775 0)
+			(effects
+				(font
+					(size 0.6096 0.6096)
+					(bold yes)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Desval:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+			(at 227.33 102.87 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 246.38 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 245.11 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wenzhou QingPu Electronics Co"
+			(at 245.11 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "WQP-WQP518MA"
+			(at 245.11 101.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Label" "OUT R"
+			(at 250.19 95.2499 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Display" "3.5mm_Mono"
+			(at 245.745 90.17 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -2467,7 +4653,7 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
-					(reference "J15")
+					(reference "J29")
 					(unit 1)
 				)
 			)
@@ -2475,16 +4661,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 173.99 97.79 0)
+		(at 101.6 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bb184a18-d4bf-4a24-84ac-cd0adb42cc05")
-		(property "Reference" "#PWR064"
-			(at 173.99 104.14 0)
+		(uuid "bca2bace-856e-4cf3-9de6-08097745ab95")
+		(property "Reference" "#PWR055"
+			(at 101.6 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2493,7 +4679,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 173.99 102.87 0)
+			(at 101.6 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2501,7 +4687,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 97.79 0)
+			(at 101.6 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2510,7 +4696,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 97.79 0)
+			(at 101.6 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2519,7 +4705,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 97.79 0)
+			(at 101.6 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2528,12 +4714,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "804a2a21-a11c-4a4b-9ff7-08f386a1446d")
+			(uuid "77ec438e-5fe7-44f7-b8e9-4175768e792e")
 		)
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
-					(reference "#PWR064")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -2550,7 +4736,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1bcaaed-7b3a-4bee-b965-7405fb909b51")
-		(property "Reference" "J13"
+		(property "Reference" "J27"
 			(at 250.19 71.0038 0)
 			(effects
 				(font
@@ -2658,7 +4844,7 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
-					(reference "J13")
+					(reference "J27")
 					(unit 1)
 				)
 			)
@@ -2675,7 +4861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c24a4543-6806-4997-b096-4b89b1b394a9")
-		(property "Reference" "J12"
+		(property "Reference" "J26"
 			(at 250.19 55.8799 0)
 			(effects
 				(font
@@ -2784,7 +4970,7 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
-					(reference "J12")
+					(reference "J26")
 					(unit 1)
 				)
 			)
@@ -2792,7 +4978,7 @@
 	)
 	(symbol
 		(lib_id "Desval:3.5mm_Mono_Switched_Jack")
-		(at 171.45 93.98 0)
+		(at 48.26 59.69 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2800,9 +4986,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c397c4f5-195b-4ae6-a6ba-fb3e56451ce3")
-		(property "Reference" "J23"
-			(at 175.26 92.7099 0)
+		(uuid "c7a7fd4d-1a01-4bf9-9d62-d7037cbc566d")
+		(property "Reference" "J11"
+			(at 52.07 58.4199 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2811,7 +4997,7 @@
 			)
 		)
 		(property "Value" "MONO 3.5mm"
-			(at 160.655 104.775 0)
+			(at 37.465 70.485 0)
 			(effects
 				(font
 					(size 0.6096 0.6096)
@@ -2822,7 +5008,7 @@
 			)
 		)
 		(property "Footprint" "Desval:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
-			(at 152.4 102.87 0)
+			(at 29.21 68.58 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2831,7 +5017,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 93.98 0)
+			(at 48.26 59.69 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2839,7 +5025,7 @@
 			)
 		)
 		(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
-			(at 171.45 93.98 0)
+			(at 48.26 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2848,7 +5034,7 @@
 			)
 		)
 		(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
-			(at 170.18 98.044 0)
+			(at 46.99 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2858,7 +5044,7 @@
 			)
 		)
 		(property "Manufacturer" "Wenzhou QingPu Electronics Co"
-			(at 170.18 99.568 0)
+			(at 46.99 65.278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2868,7 +5054,7 @@
 			)
 		)
 		(property "Part Number" "WQP-WQP518MA"
-			(at 170.18 101.092 0)
+			(at 46.99 66.802 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2877,8 +5063,8 @@
 				(hide yes)
 			)
 		)
-		(property "Label" "D"
-			(at 175.26 95.2499 0)
+		(property "Label" "GATEOUT2"
+			(at 52.07 60.9599 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -2889,7 +5075,7 @@
 			)
 		)
 		(property "Display" "3.5mm_Mono"
-			(at 170.815 90.17 0)
+			(at 47.625 55.88 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -2899,18 +5085,18 @@
 			)
 		)
 		(pin "TN"
-			(uuid "fa3588b9-fff8-4265-9429-e80b5c5d5d93")
+			(uuid "d8a45f64-36d8-4285-b0c4-da0d8267e7d2")
 		)
 		(pin "T"
-			(uuid "de6d8459-8a13-4304-b080-db1f9769a56c")
+			(uuid "097f026b-cd07-420c-94b8-2532099c3297")
 		)
 		(pin "S"
-			(uuid "12c886a3-5a94-425a-9b9f-7963ed630bec")
+			(uuid "7de4d435-a1ec-4274-ac00-8f5241860887")
 		)
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
-					(reference "J23")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -2918,7 +5104,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 121.92 0)
+		(at 223.52 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2926,8 +5112,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd1acea6-6c5e-40ed-b682-921e587709b7")
-		(property "Reference" "#PWR037"
-			(at 223.52 128.27 0)
+		(property "Reference" "#PWR063"
+			(at 223.52 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2936,7 +5122,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.52 127 0)
+			(at 223.52 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2944,7 +5130,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 121.92 0)
+			(at 223.52 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2953,7 +5139,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 121.92 0)
+			(at 223.52 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2962,7 +5148,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 121.92 0)
+			(at 223.52 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2976,7 +5162,7 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
-					(reference "#PWR037")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -2990,9 +5176,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d0cea326-99a3-4478-bb7a-11dd3b026064")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR068"
 			(at 248.92 82.55 0)
 			(effects
 				(font
@@ -3042,7 +5227,73 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
-					(reference "#PWR052")
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1782782-6273-4ccf-ba25-95a7713a2dd5")
+		(property "Reference" "#PWR059"
+			(at 101.6 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77a635a2-d7e3-4e71-853a-f9bfb5b1402d")
+		)
+		(instances
+			(project "DaisyPatchSMThingie"
+				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -3059,7 +5310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5067adb-78f0-4877-931e-648bcd7506d0")
-		(property "Reference" "J11"
+		(property "Reference" "J25"
 			(at 250.19 39.3699 0)
 			(effects
 				(font
@@ -3135,7 +5386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Label" "IN L"
+		(property "Label" "IN L(M)"
 			(at 250.19 41.9099 0)
 			(effects
 				(font
@@ -3168,73 +5419,7 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 173.99 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd7ddbb8-f760-45f5-a42e-b3e94472574d")
-		(property "Reference" "#PWR062"
-			(at 173.99 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 173.99 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d0d9229c-62db-49e0-be31-29bbd920f794")
-		)
-		(instances
-			(project "DaisyPatchSMThingie"
-				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
-					(reference "#PWR062")
+					(reference "J25")
 					(unit 1)
 				)
 			)
@@ -3242,7 +5427,7 @@
 	)
 	(symbol
 		(lib_id "Desval:3.5mm_Mono_Switched_Jack")
-		(at 171.45 60.96 0)
+		(at 137.16 34.29 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3250,9 +5435,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "de256405-c173-4a3f-aa99-e7c4c499d458")
-		(property "Reference" "J21"
-			(at 175.26 59.6899 0)
+		(uuid "e1f98580-4c36-45f1-a9bf-e1715ba4361e")
+		(property "Reference" "J22"
+			(at 140.97 33.0199 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3261,7 +5446,7 @@
 			)
 		)
 		(property "Value" "MONO 3.5mm"
-			(at 160.655 71.755 0)
+			(at 126.365 45.085 0)
 			(effects
 				(font
 					(size 0.6096 0.6096)
@@ -3272,7 +5457,7 @@
 			)
 		)
 		(property "Footprint" "Desval:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
-			(at 152.4 69.85 0)
+			(at 118.11 43.18 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3281,7 +5466,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 60.96 0)
+			(at 137.16 34.29 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3289,7 +5474,7 @@
 			)
 		)
 		(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
-			(at 171.45 60.96 0)
+			(at 137.16 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3298,7 +5483,7 @@
 			)
 		)
 		(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
-			(at 170.18 65.024 0)
+			(at 135.89 38.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3308,7 +5493,7 @@
 			)
 		)
 		(property "Manufacturer" "Wenzhou QingPu Electronics Co"
-			(at 170.18 66.548 0)
+			(at 135.89 39.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3318,7 +5503,7 @@
 			)
 		)
 		(property "Part Number" "WQP-WQP518MA"
-			(at 170.18 68.072 0)
+			(at 135.89 41.402 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3327,8 +5512,8 @@
 				(hide yes)
 			)
 		)
-		(property "Label" "B"
-			(at 175.26 62.2299 0)
+		(property "Label" "CVIN7"
+			(at 140.97 35.5599 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3339,7 +5524,7 @@
 			)
 		)
 		(property "Display" "3.5mm_Mono"
-			(at 170.815 57.15 0)
+			(at 136.525 30.48 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3349,18 +5534,150 @@
 			)
 		)
 		(pin "TN"
-			(uuid "7ccad7d3-4153-4958-bf93-a99ec1ee1ff1")
+			(uuid "366abaef-5261-4f51-a3dc-ff4bf2450afc")
 		)
 		(pin "T"
-			(uuid "d4c55622-8878-4720-95b6-798a0d81d01a")
+			(uuid "c562e973-2d30-411f-9184-b493b60b04a4")
 		)
 		(pin "S"
-			(uuid "012071bc-f7e4-463a-bc9b-ab84f3a8b32f")
+			(uuid "ccd0a2bf-6fda-4b2e-90bf-f1d9fb886858")
 		)
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
-					(reference "J21")
+					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6a26875-8ccc-4f8c-bea8-6fda382c3f9d")
+		(property "Reference" "#PWR050"
+			(at 50.8 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5948db6-a903-4e85-86ed-563256444e0b")
+		)
+		(instances
+			(project "DaisyPatchSMThingie"
+				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa6757cc-e203-4ded-96cd-7feb03d86ef0")
+		(property "Reference" "#PWR051"
+			(at 50.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7cb986e-7f78-4cc4-96d6-af9c7cb44971")
+		)
+		(instances
+			(project "DaisyPatchSMThingie"
+				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -3368,15 +5685,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 247.65 133.35 0)
+		(at 247.65 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "fbdd36ac-8b91-4d5c-bb02-2bff32270f4c")
-		(property "Reference" "J9"
-			(at 250.19 132.0799 0)
+		(property "Reference" "J31"
+			(at 250.19 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3385,7 +5702,7 @@
 			)
 		)
 		(property "Value" "JST 01x03"
-			(at 250.19 134.6199 0)
+			(at 250.19 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3395,7 +5712,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 247.65 133.35 0)
+			(at 247.65 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3404,7 +5721,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.65 133.35 0)
+			(at 247.65 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3413,7 +5730,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 247.65 133.35 0)
+			(at 247.65 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3422,7 +5739,7 @@
 			)
 		)
 		(property "Label" "AUDIO OUT"
-			(at 255.016 134.112 0)
+			(at 255.016 153.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3441,7 +5758,73 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
-					(reference "J9")
+					(reference "J31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fce3182a-c1d1-4981-994b-93db9989d8de")
+		(property "Reference" "#PWR053"
+			(at 50.8 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2de4732-b6ed-45bb-a65b-0cc0e8566443")
+		)
+		(instances
+			(project "DaisyPatchSMThingie"
+				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/1bd31f00-89bb-4d5b-acea-94846b0e2c15"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)

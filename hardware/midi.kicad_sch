@@ -1444,7 +1444,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
+		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1465,7 +1465,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3.3V"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1491,7 +1491,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1509,7 +1509,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3.3V_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1547,7 +1547,7 @@
 					)
 				)
 			)
-			(symbol "+3.3V_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2579,7 +2579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d13ff24-1950-45db-a451-fca768ae8841")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR048"
 			(at 240.03 132.08 0)
 			(effects
 				(font
@@ -2629,7 +2629,7 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/3079ce77-65d0-4c77-be7e-7dcba17b739c"
-					(reference "#PWR056")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -2645,7 +2645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e1e48dc-c2bd-4d40-939f-542a566670a7")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR043"
 			(at 158.75 92.71 0)
 			(effects
 				(font
@@ -2695,7 +2695,7 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/3079ce77-65d0-4c77-be7e-7dcba17b739c"
-					(reference "#PWR019")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -2712,7 +2712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e65d62f-ec07-454f-a438-55fdd3845322")
-		(property "Reference" "J16"
+		(property "Reference" "J8"
 			(at 241.3 104.0238 0)
 			(effects
 				(font
@@ -2820,7 +2820,7 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/3079ce77-65d0-4c77-be7e-7dcba17b739c"
-					(reference "J16")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -2837,7 +2837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fa400f2-9017-4ddc-8ed7-f86768f96c2e")
-		(property "Reference" "J17"
+		(property "Reference" "J9"
 			(at 241.3 120.5338 0)
 			(effects
 				(font
@@ -2945,7 +2945,7 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/3079ce77-65d0-4c77-be7e-7dcba17b739c"
-					(reference "J17")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -2960,7 +2960,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "277d5300-fbec-41ba-96db-3fa1f8f64d4b")
-		(property "Reference" "J18"
+		(property "Reference" "J6"
 			(at 232.41 53.3399 0)
 			(effects
 				(font
@@ -3026,7 +3026,7 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/3079ce77-65d0-4c77-be7e-7dcba17b739c"
-					(reference "J18")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3117,7 +3117,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d691f42-c2ed-4c8d-81fb-62d18741f616")
-		(property "Reference" "J19"
+		(property "Reference" "J7"
 			(at 232.41 63.4999 0)
 			(effects
 				(font
@@ -3183,7 +3183,7 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/3079ce77-65d0-4c77-be7e-7dcba17b739c"
-					(reference "J19")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -3199,7 +3199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5428a2f4-47e0-497d-a442-236006309087")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 110.49 96.5199 90)
 			(effects
 				(font
@@ -3271,7 +3271,73 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/3079ce77-65d0-4c77-be7e-7dcba17b739c"
-					(reference "D4")
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 191.77 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64d276b7-6431-4060-845a-b8f6a7a04109")
+		(property "Reference" "#PWR041"
+			(at 191.77 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 191.77 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 191.77 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d895fff-cbf9-4d54-8d26-203a1a6a6556")
+		)
+		(instances
+			(project ""
+				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/3079ce77-65d0-4c77-be7e-7dcba17b739c"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -3287,7 +3353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6588d8fa-a2d2-4889-9852-67465d633fe6")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR042"
 			(at 128.27 113.03 0)
 			(effects
 				(font
@@ -3337,73 +3403,7 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/3079ce77-65d0-4c77-be7e-7dcba17b739c"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 128.27 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a80443d-2366-4496-934c-d032b68daec3")
-		(property "Reference" "#PWR013"
-			(at 128.27 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 128.27 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 128.27 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "99af5405-397b-472c-b198-e14c5709a2ce")
-		)
-		(instances
-			(project "DaisyPatchSMThingie"
-				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/3079ce77-65d0-4c77-be7e-7dcba17b739c"
-					(reference "#PWR013")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -3419,7 +3419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d631fc1-fcf1-4809-97a9-68587a54934e")
-		(property "Reference" "C3"
+		(property "Reference" "C1"
 			(at 162.56 81.2799 0)
 			(effects
 				(font
@@ -3473,7 +3473,7 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/3079ce77-65d0-4c77-be7e-7dcba17b739c"
-					(reference "C3")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3550,72 +3550,6 @@
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/3079ce77-65d0-4c77-be7e-7dcba17b739c"
 					(reference "JP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 191.77 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f7c07d7-a7d3-4ca4-bdd9-9d1abb57bb6c")
-		(property "Reference" "#PWR040"
-			(at 191.77 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 191.77 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 191.77 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b4848d32-ea83-4a7f-ae24-5addfb43a8a5")
-		)
-		(instances
-			(project "DaisyPatchSMThingie"
-				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/3079ce77-65d0-4c77-be7e-7dcba17b739c"
-					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -3707,7 +3641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd079f7e-40ae-4498-b8f0-8d3389aefb99")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR047"
 			(at 240.03 115.57 0)
 			(effects
 				(font
@@ -3757,7 +3691,7 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/3079ce77-65d0-4c77-be7e-7dcba17b739c"
-					(reference "#PWR055")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -3907,6 +3841,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 128.27 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce37d726-b58e-443a-85c4-f39793d453a5")
+		(property "Reference" "#PWR039"
+			(at 128.27 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 128.27 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 128.27 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9d95bc2-f52a-4bf5-9b6a-225bcb41dd76")
+		)
+		(instances
+			(project ""
+				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/3079ce77-65d0-4c77-be7e-7dcba17b739c"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 213.36 119.38 90)
 		(unit 1)
@@ -3983,7 +3983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e79bcc37-4f02-44c3-ba12-5aaecf1ef963")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR046"
 			(at 207.01 72.39 0)
 			(effects
 				(font
@@ -4033,7 +4033,7 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/3079ce77-65d0-4c77-be7e-7dcba17b739c"
-					(reference "#PWR048")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -4049,7 +4049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee4ee8fc-4a3d-4d73-b879-f68decf9976f")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 138.43 90.0998 0)
 			(effects
 				(font
@@ -4113,7 +4113,7 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/3079ce77-65d0-4c77-be7e-7dcba17b739c"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -4128,7 +4128,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3bfee19-9cd7-408a-9f26-9066cc4badd9")
-		(property "Reference" "R3"
+		(property "Reference" "R10"
 			(at 99.06 82.55 90)
 			(effects
 				(font
@@ -4180,7 +4180,7 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/3079ce77-65d0-4c77-be7e-7dcba17b739c"
-					(reference "R3")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4196,7 +4196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5281a3b-2446-44ee-9a91-7c4cec8b74e3")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR045"
 			(at 207.01 62.23 0)
 			(effects
 				(font
@@ -4246,7 +4246,7 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/3079ce77-65d0-4c77-be7e-7dcba17b739c"
-					(reference "#PWR047")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -4262,7 +4262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa6de346-f171-482c-adfb-dfb80e0fbc46")
-		(property "Reference" "R5"
+		(property "Reference" "R11"
 			(at 148.59 90.1699 0)
 			(effects
 				(font
@@ -4316,7 +4316,7 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/3079ce77-65d0-4c77-be7e-7dcba17b739c"
-					(reference "R5")
+					(reference "R11")
 					(unit 1)
 				)
 			)

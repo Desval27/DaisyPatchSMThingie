@@ -231,7 +231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "188ceda4-7bd8-4032-b041-73901067b235")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR035"
 			(at 92.71 93.98 0)
 			(effects
 				(font
@@ -281,7 +281,7 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/f350be92-a0fd-4357-9163-fa7f038fe073"
-					(reference "#PWR060")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -297,7 +297,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "377989d5-ab3b-4e13-919f-48abd33d98ef")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR036"
 			(at 92.71 107.95 0)
 			(effects
 				(font
@@ -347,7 +347,7 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/f350be92-a0fd-4357-9163-fa7f038fe073"
-					(reference "#PWR065")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -363,7 +363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f4550d9-5cc1-4f34-ad6a-0dcc7aa85f19")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR034"
 			(at 92.71 85.09 0)
 			(effects
 				(font
@@ -413,7 +413,7 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/f350be92-a0fd-4357-9163-fa7f038fe073"
-					(reference "#PWR059")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -429,7 +429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "488e9708-4fa1-412b-b8f7-9c2191b8aee5")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR032"
 			(at 92.71 62.23 0)
 			(effects
 				(font
@@ -479,7 +479,7 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/f350be92-a0fd-4357-9163-fa7f038fe073"
-					(reference "#PWR057")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -830,7 +830,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f03305e7-d375-4191-a308-063c650c5bec")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR033"
 			(at 92.71 73.66 0)
 			(effects
 				(font
@@ -880,7 +880,7 @@
 		(instances
 			(project "DaisyPatchSMThingie"
 				(path "/e16aa8e8-029e-4c85-96a5-88f157e594bc/f350be92-a0fd-4357-9163-fa7f038fe073"
-					(reference "#PWR058")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
