@@ -8,6 +8,13 @@ All 40 Patch Submodule PINs are available via the pin headers on the left hand s
 
 [Interactive Bill of Materials (BOM)](hardware/bom/ibom.html)
 
+## Ready to Order Gerber Files
+- [Default](hardware/gerber_to_order/DaisyPatchSMThingie_254.0x167.64mm_for_Default.zip)
+- [Elecrow](hardware/gerber_to_order/DaisyPatchSMThingie_254.0x167.64mm_for_Elecrow.zip)
+- [FusionPCB](hardware/gerber_to_order/DaisyPatchSMThingie_254.0x167.64mm_for_FusionPCB.zip)
+- [JLCPCB](hardware/gerber_to_order/DaisyPatchSMThingie_254.0x167.64mm_for_JLCPCB.zip)
+- [PCBWay](hardware/gerber_to_order/DaisyPatchSMThingie_254.0x167.64mm_for_PCBWay.zip)
+
 #Revision A
 
 ## Notes:
