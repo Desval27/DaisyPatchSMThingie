@@ -15,7 +15,7 @@ All 40 Patch Submodule PINs are available via the pin headers on the left hand s
 - [JLCPCB](hardware/gerber_to_order/DaisyPatchSMThingie_254.0x167.64mm_for_JLCPCB.zip)
 - [PCBWay](hardware/gerber_to_order/DaisyPatchSMThingie_254.0x167.64mm_for_PCBWay.zip)
 
-#Revision A
+# Revision A
 
 ## Notes:
 - Push buttons are connected on one side to GND to be used with input pullup GPIO pins.
